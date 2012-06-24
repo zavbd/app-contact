@@ -1,0 +1,7 @@
+http://www.html-form-guide.com/php-form/php-form-validation.html
+
+http://stackoverflow.com/questions/6558370/php-form-helper-class
+
+http://stackoverflow.com/questions/1249931/using-php-filter-function-to-validate-but-ignore-empty-non-required-fields
+
+http://www.devshed.com/c/a/PHP/Validating-Incoming-Data-with-the-Strategy-Design-Pattern/2/

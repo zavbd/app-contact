@@ -1,0 +1,9 @@
+<IfModule !mod_rewrite.c>
+ErrorDocument 500 "mod_rewrite must be enabled"
+</IfModule>
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !\.(jpg|gif|js)$
+#RewriteRule ^(.*)$ ./index.php?u=$1
+RewriteRule ^SpecificPage(.*)$ ./index.php?u=$1
