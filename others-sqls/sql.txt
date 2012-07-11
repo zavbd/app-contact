@@ -13,3 +13,5 @@ GROUP BY name
 HAVING count( * ) >=1
 
 http://stackoverflow.com/questions/4047484/selecting-with-multiple-where-conditions-on-same-column
+
+select name from t2 where type in(1,2) and (usr_id=2 or usr_id >=3 ) group by name having count(*) = 2
