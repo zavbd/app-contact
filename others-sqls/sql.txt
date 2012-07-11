@@ -1,0 +1,15 @@
+SELECT name
+FROM t2
+WHERE TYPE IN ( 1, 2 ) 
+GROUP BY name
+HAVING count( * ) >=2
+
+SELECT name
+FROM t2
+WHERE TYPE IN ( 1, 2 ) 
+AND usr_id >=2
+AND usr_id >=4
+GROUP BY name
+HAVING count( * ) >=1
+
+http://stackoverflow.com/questions/4047484/selecting-with-multiple-where-conditions-on-same-column
